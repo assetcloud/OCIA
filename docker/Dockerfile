@@ -1,3 +1,4 @@
 FROM nginx:1.13
-MAINTAINER Xin Wang<wileywang@yunify.com>
-COPY index.html /usr/share/nginx/html/
+MAINTAINER Panzhaohui<panzhaohui@msn.com>
+COPY /html/* /usr/share/nginx/html/
+COPY /res/* /usr/share/nginx/res/
